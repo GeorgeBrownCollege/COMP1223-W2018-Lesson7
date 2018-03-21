@@ -1,1 +1,56 @@
 /* main stylesheet for web site */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* Navigation styles */
+
+nav#MainNav {
+    margin: 0;
+}
+
+nav#MainNav ul {
+    background-color: steelblue;
+    height: 40px;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+nav#MainNav li {
+    display: inline;
+    margin: 5px 10px 5px 0px;
+    padding: 10px;
+}
+
+li.active {
+    background-color: black;
+}
+
+nav#MainNav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav#MainNav li.active a {
+    color: silver;
+    font-weight: bold;
+}
+
+/* main content styles */
+
+main#MainContent {
+    margin: 30px;
+}
+
+/* footer styles */
+footer#PageFooter {
+    background-color: lightskyblue;
+    height: 40px;
+}
+
+footer#PageFooter h3 {
+    padding-top: 10px;
+    margin-left: 30px;
+}
